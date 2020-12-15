@@ -1,0 +1,446 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    padding-bottom: 0px;
+}
+
+@font-face{
+    font-family: Bazar;
+      src: url("../font/Bazar\ 500.ttf");
+}
+
+@font-face{
+    font-family: robotobo;
+      src: url("../font/RobotoSlab-Regular.ttf");
+}
+
+@font-face{
+    font-family: robotoboSemiBold;
+      src: url("../font/RobotoSlab-SemiBold.ttf");
+}
+@font-face{
+    font-family: robotoboSemiLight;
+      src: url("../font/RobotoSlab-Light.ttf");
+}
+
+
+
+
+body{
+    background-size: cover;
+    background-position: center;
+    font-family: Bazar;
+    color:#74B4B4 ;
+}
+
+.home{
+    width: 100%;
+    height: 100%;
+    background-color:#77B7B7;
+    font-family: Bazar;
+}
+
+
+.a00-1{
+    color:#F6EDD8;
+    font-size: 100px;
+    text-shadow: 4px 4px grey;
+    padding-top: 0px;
+}
+
+.a00-2{
+    color:black;
+    padding-top: 0px ;
+    font-size: 20px;
+    padding: 0px;
+}
+
+
+
+.menu-bar{
+    background-color:#77B7B7;
+    text-align: center;
+    border-bottom: 0.1px groove ;
+}
+
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+}
+.menu-bar ul li{
+    width: 120px;
+    margin: 10px;
+    padding: 10px;
+    padding-bottom: 0%;
+}
+
+.menu-bar ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu-bar ul li:hover{
+    background: #F6EDD8 ;
+    border-radius: 3px;
+}
+
+.none{
+    background: none;
+    border-radius: 3px;
+}
+
+.menu-bar.fa{
+    margin-right: 8px;
+}
+
+.retro-01 p{
+    text-align: center;
+    color:#F6EDD8;
+    font-family: Bazar;
+    font-size: 130px;
+    text-shadow: 3px 3px grey;
+    padding: 15px;
+}
+
+    .john{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .para-0,.para-1{
+        color: #F6EDD8;
+        text-align: center;
+        font-size: 28px;
+    }
+    
+
+    .about-me{
+        width: 100%;
+        height: 100%;
+        background-color: #E0DBCB;
+        font-family: Bazar;
+    }
+
+    .a0-1{
+        color: black;
+        font-size: 100px;
+        text-shadow: 4px 4px grey;
+        padding-top: 30px;
+    }
+
+    .a0-2{
+        color:black;
+        padding-top: 0px ;
+        font-size: 20px;
+        padding: 15px;
+    }
+
+    .a0-3{
+        color:black;
+        padding-top: 0px ;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-top: 0px;
+    }
+
+
+    .about-me{
+        text-align: center;
+        border-bottom: 0.1px groove ;
+    }
+    
+    .abt-l ul{
+        display: inline-flex;
+        list-style: none;
+        color: #fff;
+    }
+    .abt-l ul li{
+        width: 300px;
+        margin: 10px;
+        padding: 10px;
+    }
+    
+    .abt-l ul li a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    .abt-l ul li:hover{
+        background:white ;
+        border-radius: 3px;
+    }
+
+    .abt-l.fa{
+        margin-right: 8px;
+    }
+
+    .abt-l ul li i{
+        font-size: 500%;
+        color: #D45244;
+        padding: 40px;
+
+        border: 5px solid  #D45244;
+        padding: 10px;
+        border-radius:50%;
+    }
+
+    .gg{
+        font-size: 500%;
+        color: #D45244;
+        padding: 40px;
+        border: 5px solid #D45244;
+        padding: 10px;
+        border-radius: 50%;
+    }
+
+    
+    .abt-l ul li p.ct-1{
+        top: 50%;
+        font-size: 30px;
+        color: black;
+        padding: 40px;
+
+        
+        padding: 10px;
+    }
+
+    .abt-l ul li p.m-0{
+        font-family: Arial, Helvetica, sans-serif;
+        top: 50%;
+        font-size: 15px;
+        color: black;
+        padding: 40px;
+
+        
+        padding: 10px;
+    }
+
+    .ct-2{
+        font-family: robotobo;
+        top: 50%;
+        font-size: 14px;
+        color: black;
+        padding: 40px;
+        padding: 10px;
+    }
+
+    /* PORTFOLIO */
+
+    .portfolio{
+        background-color: #E28968;
+        height: 100%;
+        width: 100%;
+        border: none;
+        font-family: Bazar;
+
+
+    }
+    .portfolio div.logo-port .b0-1{
+        color: #393A3A;
+        font-size: 100px;
+        text-shadow: 2px 2px #E0DBCB;
+        text-align: center;
+        padding-top: 30px;
+    }
+
+    .b0-2{
+        color:black;
+        padding-top: 0px ;
+        font-size: 20px;
+        text-align: center;
+        padding: 15px;
+    }
+
+    .b0-3{
+        color:black;
+        padding-top: 0px ;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+    }
+
+    .fil-01 {
+        display: inline-flex;
+        font-family: Arial, Helvetica, sans-serif;
+        list-style: none;
+        color: #fff;
+        text-align: center;
+        padding-left: 200px;
+    }
+
+    .fil-01 li{
+        padding:0px 15px 15px 0px ;
+    }
+
+    .img{
+        padding-top: 30px;
+        display: inline-flex;
+        font-family: Arial, Helvetica, sans-serif;
+        list-style: none;
+        color: #fff;
+        text-align: center;
+        padding-left: 173px;
+
+    }
+
+    .img li{
+        margin: 10px;
+        width: 100%;
+        height: 100%;
+        border: 8px solid #F6EDD8;
+        border-bottom:22px solid #F6EDD8 ;
+        padding-bottom: 22px 0px;
+    }
+
+    
+
+    .browse-0,.browse-1{
+        text-align: center;
+        color: #383A3C;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .my-blog{
+        width: 100%;
+        height: 100%px ;
+        background-color: #DDDAD7;
+    }
+
+    .b0-1{
+        text-align: center;
+        color: black;
+        font-size: 100px;
+        text-shadow: 4px 4px grey;
+        padding-top: 30px;
+    }
+
+    
+
+    .news{
+        display: inline-flex;
+    }
+
+    .container{
+        margin: auto ;
+        width: 50%;
+        padding: 8px;
+    }
+
+    
+
+    .txt{
+        text-align: justify;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding-left: 50px;
+        color: #383A3C;
+    }
+
+    .txt-00{
+        text-align: justify;
+        font-family: robotoboSemiLight;
+        padding-left: 50px;
+        color: #383A3C;
+    }
+
+    .contact-us{
+        width: 100%;
+        height: 100% ;
+        background-color: #4C5056;
+    }
+
+    .c0-1{
+        text-align: center;
+        color:#F6EDD8;
+        font-size: 100px;
+        text-shadow: 4px 4px grey;
+        padding-top: 30px;
+    }
+
+
+    .c0-2{
+        color :#F6EDD8;
+        padding-top: 0px ;
+        font-size: 20px;
+        text-align: center;
+        padding: 15px;
+    }
+
+    .c0-3{
+        color:#F6EDD8;
+        padding-top: 0px ;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+    }
+
+    .text-box{
+        position: absolute;
+    }
+
+
+    /* ... */
+
+
+    input[type=text], select, textarea {
+        width: 100%; /* Full width */
+        padding: 12px; /* Some padding */ 
+        border: 1px solid #ccc; /* Gray border */
+        border-radius: 4px; /* Rounded borders */
+        box-sizing: border-box; /* Make sure that padding and width stays in place */
+        margin-top: 6px; /* Add a top margin */
+        margin-bottom: 16px; /* Bottom margin */
+        resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+      }
+      
+      /* Style the submit button with a specific background color etc */
+      input[type=submit] {
+        background-color:#F6EDD8;
+        color: #4C5056;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      
+      /* When moving the mouse over the submit button, add a darker green color */
+      input[type=submit]:hover {
+        background-color: #F6EDD8;
+        opacity: 0.5;
+      }
+      
+      /* Add a background color and some padding around the form */
+      .container-0 {
+        border-radius: 5px;
+        background-color:#4C5056;
+        padding-right: 27%;
+        padding-left: 27%;
+      }
+
+      .social-text{
+          text-align: center;
+          color: #F6EDD8;
+      }
+    ul.social-list a{
+          padding-left: 28%;
+          padding-right: 28%;
+      }
+    
+      body { font-family: sans-serif; }
+
+      .img-b1{
+          float: left;
+          padding-right: 20px;
+      }
+      .txt h3{
+          font-size: 10px;
+          font-family: robotoboSemiBold;
+      }
+
+      .txt h4{
+          font-size: 10px;
+          font-family: robotoboSemiBold;
+          text-align: right;
+          margin-top: 0%;
+      }

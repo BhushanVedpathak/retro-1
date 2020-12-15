@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retro</title>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <style>
+       .fa.SL-0 {  
+			  width: 60px;
+			  padding: 20px;
+			  font-size: 25px;
+			  text-align: center;
+			  text-decoration: none;
+			  margin: 5px 5px;
+			  color:#4C5056;
+              border-radius: 50%;
+			}
+
+			.fa:hover {
+				opacity: 0.7;
+			}
+
+			.fa-facebook {
+			  background: #F6EDD8;
+			}
+
+			.fa-twitter {
+			  background:#F6EDD8;
+			}
+
+			.fa-google {
+			  background: #F6EDD8;
+			}
+
+			.fa-linkedin {
+			  background: #F6EDD8;
+			}
+
+			
+
+			.fa-pinterest {
+			  background: #F6EDD8;
+            }
+            
+            .mySlides {display:none;}
+    </style>
+</head>
+<body>
+<div class="main">
+    <div class="home">
+            <div class="menu-bar">
+                <ul>
+                    <li class="active"><a href="#"> &nbsp; ABOUT ME</a></li>
+                    <li><a href="#">&nbsp;PORTFOLIO</a></li>
+                    <li class="none"><img src="img/logo.png" alt="gg"></li>
+                    <li><a href="#">&nbsp;MY BLOG</a></li>
+                    <li><a href="#">&nbsp;CONTACT ME</a></li>
+                </ul>
+                <p class="a00-1">RETRO</p>
+                <p class="a00-2">---xxx---</p>
+
+                    <h2 class="w3-center">Manual Slideshow</h2>
+
+                    <div class="w3-content w3-display-container">
+                    <img class="mySlides" src="./img/cool-background.png" style="width:100%">
+                    <img class="mySlides" src="./img/bg.png" style="width:100%">
+                    <img class="mySlides" src="./img/cool-background.png" style="width:100%">
+                    <img class="mySlides" src="./img/bg.png" style="width:100%">
+
+                    <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+                    <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+                    </div>
+
+                    <script>
+                    var slideIndex = 1;
+                    showDivs(slideIndex);
+
+                    function plusDivs(n) {
+                    showDivs(slideIndex += n);
+                    }
+
+                    function showDivs(n) {
+                    var i;
+                    var x = document.getElementsByClassName("mySlides");
+                    if (n > x.length) {slideIndex = 1}
+                    if (n < 1) {slideIndex = x.length}
+                    for (i = 0; i < x.length; i++) {
+                        x[i].style.display = "none";  
+                    }
+                    x[slideIndex-1].style.display = "block";  
+                    }
+                    </script>
+                    <div class="john">
+                        <div class="para-0">
+                            <P>"WELCOME I'M JOHN DOE</P>
+                        </div>
+                        <div class="para-1">
+                            <P>WELCOME TO RETRO, MY WONDERFUL THEME!"</P>
+                        </div>
+                    </div>  
+                    
+                
+
+  </div>
+            
+            
+    </div>
+
+
+
+
+    <div class="about-me">
+        <div class="container">
+            <p class="a0-1">ABOUT ME</p>
+            <p class="a0-2">---xxx---</p>
+            <p class="a0-3">IM GRAPHIC DESIGNER FROM BALTIMORE</p>
+        </div>
+
+        <div class="abt-l">
+            <ul>
+                <li><i class="fa fa-film"></i><br
+                    ><a href="#">&nbsp;<p class="ct-1">MOVIES <BR>
+                        <p class="m-0">WHAT I WATCH</p> </p>
+                            <p class="ct-2">Clutter is honest! I do believe that has to the users
+                                selfexpression. Care. Things which is a projector operating system such formats are deep and profound and meaningful. It's the traditions of data. Good design should be different levels. There's no rational alternative. That's come to complexity.</p>
+                    </a>
+                </li>
+                <li><i class="fa gg fa-music"></i><br>
+                    <a href="#">&nbsp;<p class="ct-1">MUSIC <BR>
+                        <p class="m-0">WHAT I LISTEN</p> </p>
+                        <p class="ct-2">Good design. The content, you'll love powerpoint should be different. It's about design is that part? Good design is making something looks. And aesthetic. And colour defines your interface. That cannot be overtly different. That has to chance. And restrained, low resolution, but you get rid of materials.</p>
+                    </a>
+                </li>
+                <li><i class="fa gg fa-black-tie"></i><br>
+                    <a href="#">&nbsp;<p class="ct-1">CLOTHES <BR>
+                        <p class="m-0">WHAT I WEAR</p> </p>
+                        <p class="ct-2">Very honest approach and product. The other product that changes function like the absence of function. And frustrating that products that it's the functional imperative, we kept going and frustrating that we are about bringing order to be better and less complicated to
+                            understand.</p>
+                    </a>
+                </li>
+                <li><i class="fa gg fa-cutlery"></i><br>
+                    <a href="#">&nbsp;<p class="ct-1">CONTACT<BR>
+                        <p class="m-0">WHAT I EAT</p> </p>
+                        <p class="ct-2">Simplicity. Its context. From so many different levels. There's real simplicity is. Designing and place of the objects we're surrounded by seem trivial. There's no rational alternative. I think that's a very complicated problems without letting people have a very easy to mean so much that acknowledges.</p>
+                    </a>
+                </li>
+            </ul>
+        </div><br>
+
+    </div>
+
+    <div class="portfolio">
+
+        <div class="logo-port">
+            <p class="b0-1">PORTFOLIO</p>
+            <p class="b0-2">---xxx---</p>
+            <p class="b0-3">SIMPLICITY IS THE ULTIMATE SOPHISTICATION</p><br>
+            
+        </div><br>
+        <div class="filter">
+            <ul class="fil-01">
+                <li class="fil-01-0"><p>Filter by</p></li>
+                <li class="fil-01-1"><p>design</p></li>
+                <li class="fil-01-1"><p>logo</p></li>
+                <li class="fil-01-1"><p>photography</p></li>
+                <li class="fil-01-1"><p>poster</p></li>
+                <li class="fil-01-1"><p>resources</p></li>
+                <li class="fil-01-1"><p>retro</p></li>
+                <li class="fil-01-1"><p>t-shirts</p></li>
+                <li class="fil-01-1"><p>videos</p></li>
+            </ul><br>
+            <ul class="img">
+                <li><img src="./img/square.png" class="img-0" width="100%"></li>
+                <li><img src="./img/square.png" class="img-0" width ="100%"></li>
+                <li><img src="./img/square.png" class="img-0" width="100%"></li>
+                <li><img src="./img/square.png" class="img-0" width="100%"></li>
+            </ul><br>
+            <ul class="img">
+                <li><img src="./img/square.png" class="img-1" width="100%"></li>
+                <li><img src="./img/square.png" class="img-1" width="100%"></li>
+                <li><img src="./img/square.png" class="img-1" width="100%"></li>
+                <li><img src="./img/square.png" class="img-1" width="100%"></li>
+            
+            </ul><br>
+            <p class="browse-0">___</p><br>
+            <p class="browse-1">BROWSE ALL</p>
+
+
+            
+        </div>
+
+    </div>
+
+    <div class="my-blog">
+        <div class="logo-port">
+            <p class="b0-1">MY BLOG</p>
+            <p class="b0-2">---xxx---</p>
+            <p class="b0-3">NEWS FROM MY HOUSE</p><br>
+            
+        </div>
+
+        <div class="container">
+            <div class="img-b1">
+            <img src="./img/square.png" alt="" class="blog-image">
+            </div>
+                    <div class="txt">
+                            <h2>The Magic Wheel</h2>
+                            <h3>JULY 28,2014</h3>
+                            <h4>1 RESPONSE</h4>
+                    </div><br>
+                        
+                            <div class="txt-00">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut nesciunt commodisequi, obcaecati neque impedit deserunt nobis soluta exercitationem quisquam!
+                            
+                            </div>
+            <br>
+        </div><br>
+
+        <div class="container">
+            <div class="img-b1">
+                <img src="./img/square.png" alt="" class="blog-image">
+                </div>
+                    <div class="txt">
+                            <h2>The Lonely Road</h2>
+                            <h3>JULY 28,2014</h3>
+                            <h4>1 RESPONSE</h4>
+                        </div><br>
+                        
+                            <div class="txt-00">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut nesciunt commodi sequi, obcaecati neque impedit deserunt nobis soluta exercitationem quisquam!
+                            
+                    </div>
+            <br>
+        </div><br>
+
+        <div class="container">
+            <div class="img-b1">
+                <img src="./img/square.png" alt="" class="blog-image">
+                </div>
+                    <div class="txt">
+                            <h2>I Love gasoline Smell</h2>
+                            <h3>JULY 28,2014</h3>
+                            <h4>1 RESPONSE</h4>
+                            </div>
+                            
+                            <div class="txt-00">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut nesciunt commodi sequi, obcaecati neque impedit deserunt nobis soluta exercitationem quisquam!
+                            
+                    </div>
+            <br>
+        </div><br>
+
+    </div>
+
+    <div class="contact-us">
+            <div class="logo-contact">
+                <p class="c0-1">CONTACT ME</p>
+                <p class="c0-2">---xxx---</p>
+                <p class="c0-3">I'LL BE GLAD TO ANSWER YOUR QUESTIONS</p><br>
+                
+            </div>
+                
+
+                <div class="container-0">
+                    <form action="#">
+                  
+                      <label for="fname"></label>
+                      <input type="text" id="fname" name="firstname" placeholder="Name">
+                  
+                      <label for="lname"></label>
+                      <input type="text" id="lname" name="lastname" placeholder="Email Address">
+                      <input type="text" id="fname" name="firstname" placeholder="Subject">
+                      <textarea id="subject" name="subject" placeholder="Your Message" style="height:200px"></textarea>
+                  
+                      <input type="submit" value="Send Message">
+                  
+                    </form><br>
+                  </div>
+                  <div class="social">
+                      <p class="social-text">I'M SOCIAL</p>
+                      <div class="logo-social"><br>
+                        <ul style="padding-left: 36%;">
+                            <a href="#" class="fa SL-0 fa-twitter"></a>
+                            <a href="#" class="fa SL-0 fa-facebook"></a>
+                            <a href="#" class="fa SL-0 fa-google"></a>
+                            <a href="#" class="fa SL-0 fa-linkedin"></a>
+                            <a href="#" class="fa SL-0 fa-pinterest"></a>
+                        </ul>
+
+                      </div>
+                  </div>
+
+    </div>
+
+
+</div>
+</body>
+</html>
+
+
+
+
+
+
